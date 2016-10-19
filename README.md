@@ -13,6 +13,10 @@ server <-> client:
     magnus@malibu:~/bin$ cat xfind_update.sh
     updatedb --require-visibility 0 -o  ~/.local.db -U /home/magnus;
 
+and make dbs of external drives:
+
+    updatedb --require-visibility 0 -o  ~/.hd.db -U /mmt/HD;
+
 Good:
 
 - fast!
