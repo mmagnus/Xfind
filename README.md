@@ -1,4 +1,4 @@
-Xfind - find at remote machines
+Xfind - find at eXternal machines and drives
 -------------------------------------------------------------------------------
 
 Xfind a new idea to do mmfinder (https://github.com/mmagnus/mmfinder)
