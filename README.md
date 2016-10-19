@@ -2,7 +2,7 @@ xfind - find at remote machines
 -------------------------------------------------------------------------------
 xfind:
 
-![](doc/xfind.png)
+![](doc/demo.gif)
 
 server <-> client:
 
