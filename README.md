@@ -1,7 +1,7 @@
-xfind - find at remote machines
+Xfind - find at remote machines
 -------------------------------------------------------------------------------
 
-xfind a new idea to do mmfinder (https://github.com/mmagnus/mmfinder)
+Xfind a new idea to do mmfinder (https://github.com/mmagnus/mmfinder)
 
 ![](doc/demo.gif)
 
