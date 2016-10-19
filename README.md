@@ -14,8 +14,10 @@ server <-> client:
 
 Good:
 
-- update under crontab
+- fast!
+- update under crontab on remote machines
+- offline locate search for drives
 
 Bad:
 
-- you have to have access to find
+- you have to have access to machines to do a search

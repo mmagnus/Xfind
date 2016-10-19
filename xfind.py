@@ -12,9 +12,19 @@ os.system('toilet -f smmono9 xfind --filter gay')
  
 #if '-l' in args:
 if len(args) == 0:
-    print 'hosts:', hosts
+    print 'local & hosts:', hosts
     sys.exit(1)
-    
+
+# local
+print '> locate'
+cmd = 'locate ' + ' '.join(args)
+os.system(cmd)
+
+# HD
+print '> HD'
+cmd = 'locate -d ~/.locate-hd ' + ' '.join(args)
+os.system(cmd)
+
 for h in hosts:
     print ('> ' + h)    
     cmd = 'ssh ' + h + ' ~/bin/xfind.sh ' + ' '.join(args)
