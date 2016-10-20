@@ -10,10 +10,10 @@
 #TMPDIR="/tmp"
 
 # the actual database
-FCODES="/home/magnus/.locate-hd"
+FCODES="/home/magnus/.locate-mac"
 
 # directories to be put in the database
-SEARCHPATHS="/Volumes/HD"
+SEARCHPATHS="/Users/magnus/"
 
 # directories unwanted in output
 #PRUNEPATHS="/tmp /var/tmp"

@@ -15,18 +15,20 @@ if len(args) == 0:
     print 'local & hosts:', hosts
     sys.exit(1)
 
-# local
-print '> locate'
-cmd = 'locate ' + ' '.join(args)
+# local # does not work on my mac
+#print '# locate'
+#cmd = 'glocate -d ~/.locate-mac ' + ' '.join(args)
+print 'mdfind'
+cmd = 'mdfind -name ' + ' '.join(args) # options for locate as -b wont work here
 os.system(cmd)
 
 # HD
-print '> HD'
-cmd = 'locate -d ~/.locate-hd ' + ' '.join(args)
+print '# HD'
+cmd = 'glocate -d ~/.locate-hd ' + ' '.join(args)
 os.system(cmd)
 
 for h in hosts:
-    print ('> ' + h)    
+    print ('# ' + h)    
     cmd = 'ssh ' + h + ' ~/bin/xfind.sh ' + ' '.join(args)
     #print cmd
     os.system(cmd)

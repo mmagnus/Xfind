@@ -1,7 +1,7 @@
 Xfind - find at eXternal machines and drives
 -------------------------------------------------------------------------------
 
-Xfind a new idea to do mmfinder (https://github.com/mmagnus/mmfinder)
+Xfind a new idea to do mmfinder (https://github.com/mmagnus/mmfinder). This is rather a concept so I encourge you to fork it if you wish and change it for setup.
 
 ![](doc/demo.gif)
 
@@ -26,3 +26,7 @@ Good:
 Bad:
 
 - you have to have access to machines to do a search
+
+..
+
+    export LOCATE_PATH="/home/magnus/.locate-mac"
