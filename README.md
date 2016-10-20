@@ -25,7 +25,7 @@ Good:
 
 Bad:
 
-- you have to have access to machines to do a search
+- you have to have access to machines to do a search (or istead of ssh /cmd/ do a local database sshfs-ed drive (see external drives) 
 
 ..
 
