@@ -30,3 +30,9 @@ Bad:
 ..
 
     export LOCATE_PATH="/home/magnus/.locate-mac"
+
+Aliases:
+
+    # locate
+    alias updatex='updatedb --require-visibility 0 -o  ~/.local.db -U /home/magnus;'
+    alias locatex="locate -d ~/.locate.db " 
