@@ -22,9 +22,19 @@ print 'mdfind'
 cmd = 'mdfind -name ' + ' '.join(args) # options for locate as -b wont work here
 os.system(cmd)
 
-# HD
+# HD - search indexed external drives
 print '# HD'
 cmd = 'glocate -d ~/.locate-hd ' + ' '.join(args)
+os.system(cmd)
+
+# run xfind remotely to find your shit
+print '# locate (global) malibu'
+cmd = 'ssh malibu locate ' + ' '.join(args)
+os.system(cmd)
+
+# run xfind remotely to find your shit
+print '# locate (global) peyote'
+cmd = 'ssh peyote2 locate ' + ' '.join(args)
 os.system(cmd)
 
 for h in hosts:
