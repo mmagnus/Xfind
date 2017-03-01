@@ -3,7 +3,7 @@
 import os
 import sys
 
-hosts = ['peyote2', 'malibu', 'maximus']
+hosts = ['peyote2', 'malibu', 'maximus', 'mq']
 
 args = sys.argv[1:]
 #print args
@@ -18,7 +18,7 @@ if len(args) == 0:
 # local # does not work on my mac
 #print '# locate'
 #cmd = 'glocate -d ~/.locate-mac ' + ' '.join(args)
-print 'mdfind'
+print '# mdfind'
 cmd = 'mdfind -name ' + ' '.join(args) # options for locate as -b wont work here
 os.system(cmd)
 
