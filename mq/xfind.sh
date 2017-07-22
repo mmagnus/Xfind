@@ -1,0 +1,1 @@
+locate -d ~/.local.db $@
